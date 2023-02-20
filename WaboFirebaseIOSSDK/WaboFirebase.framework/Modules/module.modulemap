@@ -1,0 +1,11 @@
+framework module WaboFirebase {
+  umbrella header "WaboFirebase.h"
+
+  export *
+  module * { export * }
+}
+
+module WaboFirebase.Swift {
+  header "WaboFirebase-Swift.h"
+  requires objc
+}
