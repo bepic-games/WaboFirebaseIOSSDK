@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "WaboFirebaseIOSSDK"
-  spec.version="0.1.0.3"
+  spec.version="0.1.0.4"
   spec.summary = "Wabo SDK Firebase sdk"
   spec.description= <<-DESC
   Wabo SDK for Firebase
@@ -17,5 +17,4 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.dependency 'Firebase/Analytics', '10.1.0'
   spec.dependency 'Firebase/Core'     , '10.1.0'
-  spec.dependency 'GoogleUtilities'   , '7.11.0', :modular_headers => true
 end
