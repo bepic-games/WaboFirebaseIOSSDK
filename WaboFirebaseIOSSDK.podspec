@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "WaboFirebaseIOSSDK"
-  spec.version="0.1.0.1"
+  spec.version="0.1.0.2"
   spec.summary = "Wabo SDK Firebase sdk"
   spec.description= <<-DESC
   Wabo SDK for Firebase
@@ -15,4 +15,6 @@ Pod::Spec.new do |spec|
   spec.public_header_files = 'WaboFirebaseIOSSDK/*.{framework}/Headers/*.h'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   spec.swift_version = '5.0'
+  spec.dependency 'Firebase/Analytics', '10.1.0'
+  spec.dependency 'Firebase/Core'     , '10.1.0'
 end
