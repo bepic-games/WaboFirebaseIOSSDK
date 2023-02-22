@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   spec.public_header_files = 'WaboFirebaseIOSSDK/*.{framework}/Headers/*.h'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   spec.swift_version = '5.0'
-  spec.dependency 'FirebaseCore'          , '10.1.0', :modular_headers => true
-  spec.dependency 'GoogleUtilities'       , '7.11.0', :modular_headers => true
+  # spec.dependency 'FirebaseCore'          , '10.1.0', :modular_headers => true
+  # spec.dependency 'GoogleUtilities'       , '7.11.0', :modular_headers => true
   spec.dependency 'FirebaseAnalytics'     , '10.1.0'
   spec.dependency 'FirebaseMessaging'     , '10.1.0'
   spec.dependency 'FirebaseRemoteConfig'  , '10.1.0'
