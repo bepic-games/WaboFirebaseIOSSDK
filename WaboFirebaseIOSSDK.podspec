@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "WaboFirebaseIOSSDK"
-  spec.version="0.1.28"
+  spec.version="0.1.29"
   spec.summary = "Wabo SDK Firebase sdk"
   spec.description= <<-DESC
   Wabo SDK for Firebase
