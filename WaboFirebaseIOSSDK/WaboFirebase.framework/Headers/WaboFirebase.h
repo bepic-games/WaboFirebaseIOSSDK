@@ -54,4 +54,6 @@ typedef void(^WaboSDKBridgeDelegate)(id _Nullable any);
 
 - (void)setWaboFirebaseInitDelegate:(WaboSDKBridgeDelegate _Nonnull) delegate;
 
+- (NSDictionary * _Nullable) jsonStringToDictionary:(NSString * _Nullable) jsonString;
+
 @end
